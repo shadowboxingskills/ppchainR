@@ -1,0 +1,12 @@
+*.vim
+.DS_Store
+
+scratch/*
+!scratch/.gitkeep
+
+packrat/lib*/
+packrat/src/
+
+.Rproj.user
+.RData
+.Rhistory
