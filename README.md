@@ -7,13 +7,6 @@ border: none;">
 <h2 align="center" style="border-bottom: none">Your Probabilistic Modeling Copilot</h2>
 <br/>
 
-# ppchainR
-
-Your Probabilistic Modeling Copilot
-
-_Created by Marc Fournier-Carrie (<marc@valuegrid.io>)_
-_Reporter: Marc Fournier-Carrie (<marc@valuegrid.io>)_
-
 ## 🤔 What is this?
 
 Generative AI meets Probabilistic Programming.
