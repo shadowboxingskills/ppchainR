@@ -12,8 +12,17 @@ border: none;">
 Your Probabilistic Modeling Copilot
 
 _Created by Marc Fournier-Carrie (<marc@valuegrid.io>)_
-
 _Reporter: Marc Fournier-Carrie (<marc@valuegrid.io>)_
+
+## 🤔 What is this?
+
+Generative AI meets Probabilistic Programming.
+PP Chain, your open-source toolkit for intuitive, powerful modeling.
+Your copilot to build model internal representations and optimize your Bayesian workflow.
+
+## 🚀 What can this help with?
+
+- TODO
 
 ## Project goal
 
