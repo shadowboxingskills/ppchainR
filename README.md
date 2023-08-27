@@ -52,3 +52,19 @@ _TK: For more complex or unusual projects additional directions follow_
 ## Data notes
 
 _Add important caveats, limitations, and source contact info here._
+
+## 💁 Contributing
+
+Contributions are very welcome, whether it is in the form of a new feature, improved infrastructure, or better documentation.
+For detailed information on how to contribute, see [CONTRIBUTING](https://github.com/shadowboxingskills/ppchainR/blob/master/CONTRIBUTING.rst).
+
+If you are interested to get further involved with the ValueGrid\_ team, please [contact us](mailto:nawel@valuegrid.io?subject=[GitHub]%20PPChainR).
+
+## License
+
+Usage is provided under the MIT license.
+See [LICENSE](https://github.com/shadowboxingskills/ppchainR/blob/master/LICENSE) for full details.
+
+## Credits
+
+- Initial inspiration for this package came from [Thomas Wiecki, PhD](https://www.linkedin.com/in/twiecki) and [Daniel Lee](https://www.linkedin.com/in/syclik), as explained in more details in this [LinkedIn post](https://www.linkedin.com/pulse/harnessing-gpts-next-significant-advancement-marc-fournier-carrie) and [Medium article](https://medium.com/@marc.fourniercarrie/harnessing-gpts-for-the-next-significant-advancement-in-probabilistic-programming-70ccfc33846f).
