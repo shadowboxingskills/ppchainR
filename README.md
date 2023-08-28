@@ -34,24 +34,6 @@ Following the 3 main steps of the Bayesian data analysis process, as defined in 
 
 <br>
 
-## Technical
-
-_TK: Instructions on how to bootstrap project, run ETL processes, etc._
-
-An outline of the basic project structure is available at https://github.com/associatedpress/cookiecutter-r-project
-
-### Project setup instructions
-
-After cloning the git repo:
-
-`datakit data pull` to retrieve the data files.
-
-Open `ppchainr.Rproj` in RStudio.
-
-_TK: For more complex or unusual projects additional directions follow_
-
-<br>
-
 ## ⚙ Workflow
 
 `ppchain` provides a (progressively growing) set of AI-assisted functions to progress through the following workflow (where $P$ denotes a probability distribution, $\theta$ the parameters, and $y$ the data):
@@ -73,9 +55,10 @@ _TK: For more complex or unusual projects additional directions follow_
 ## 💁 Contributing
 
 Contributions are very welcome, whether it is in the form of a new feature, improved infrastructure, or better documentation.
-For detailed information on how to contribute, see [CONTRIBUTING](https://github.com/shadowboxingskills/ppchainR/blob/master/CONTRIBUTING.rst).
 
-If you are interested to get further involved with the ValueGrid\_ team, please [contact us](mailto:nawel@valuegrid.io?subject=[GitHub]%20PPChainR).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/shadowboxingskills/ppchainR/pulls/).
+
+If you are interested to get further involved with the <a href="https://valuegrid.io" target="_blank">ValueGrid</a> team, please [contact us](mailto:nawel@valuegrid.io?subject=[GitHub]%20APPChainR).
 
 <br>
 
