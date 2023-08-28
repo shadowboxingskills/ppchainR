@@ -54,9 +54,7 @@ Following the 3 main steps of the Bayesian data analysis process, as defined in 
 
 ## 💁 Contributing
 
-Contributions are very welcome, whether it is in the form of a new feature, improved infrastructure, or better documentation.
-
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/shadowboxingskills/ppchainR/pulls/).
+Contributions are very welcome, whether it is in the form of a new feature, improved infrastructure, or better documentation. Please use [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/shadowboxingskills/ppchainR/pulls/).
 
 If you are interested to get further involved with the <a href="https://valuegrid.io" target="_blank">ValueGrid</a> team, please [contact us](mailto:nawel@valuegrid.io?subject=[GitHub]%20APPChainR).
 
