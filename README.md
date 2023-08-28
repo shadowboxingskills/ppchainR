@@ -8,11 +8,7 @@ border: none;">
 
 <br/>
 
-[![Documentation Status](https://readthedocs.org/projects/ppchain/badge/?version=latest)](https://ppchain.readthedocs.io/en/latest/?version=latest)
-
-[![Open Issues](https://img.shields.io/github/issues-raw/shadowboxingskills/ppchainR)](https://github.com/shadowboxingskills/ppchainR/issues)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/ppchain/badge/?version=latest)](https://ppchain.readthedocs.io/en/latest/?version=latest) [![Open Issues](https://img.shields.io/github/issues-raw/shadowboxingskills/ppchainR)](https://github.com/shadowboxingskills/ppchainR/issues) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <br/>
 
@@ -28,7 +24,7 @@ Your copilot to build model internal representations and optimize your Bayesian 
 
 `ppchain` aims to ease the pains of building a model.
 
-Following the 3 main steps of the Bayesian data analysis process, as defined in [1], `ppchain` provides a (progressively growing) toolbox of AI-assisted functions aiming to make your life easier along the way:
+Following the 3 main steps of the Bayesian data analysis process, as defined in [[1]](#1), `ppchain` provides a (progressively growing) toolbox of AI-assisted functions aiming to make your life easier along the way:
 
 1. Setting up a full probability model—a joint probability distribution for all observable and unobservable quantities in a problem. `ppchain` searches for domain knowledge about your underlying problem and helps building an internal representation that is consistent with both background knowledge and collected data.
 
@@ -56,6 +52,24 @@ _TK: For more complex or unusual projects additional directions follow_
 
 <br>
 
+## ⚙ Workflow
+
+`ppchain` provides a (progressively growing) set of AI-assisted functions to progress through the following workflow (where `$P$` denotes a probability distribution, `$\theta$` the parameters, and `$y$` the data):
+
+- Define the problem statement
+- Formalize priors, `$P(\theta)$`
+- Determine the likelihood function, `$P(y \mid \theta)$`
+- Compute the posterior distribution, `$P(\theta \mid y)$`
+- Run posterior inference
+
+<br>
+
+## 📖 Documentation
+
+- Documentation: https://ppchain.readthedocs.io
+
+<br>
+
 ## 💁 Contributing
 
 Contributions are very welcome, whether it is in the form of a new feature, improved infrastructure, or better documentation.
@@ -63,11 +77,19 @@ For detailed information on how to contribute, see [CONTRIBUTING](https://github
 
 If you are interested to get further involved with the ValueGrid\_ team, please [contact us](mailto:nawel@valuegrid.io?subject=[GitHub]%20PPChainR).
 
+<br>
+
 ## License
 
 Usage is provided under the MIT license.
 See [LICENSE](https://github.com/shadowboxingskills/ppchainR/blob/master/LICENSE) for full details.
 
+<br>
+
 ## Credits
 
-- Initial inspiration for this package came from [Thomas Wiecki, PhD](https://www.linkedin.com/in/twiecki) and [Daniel Lee](https://www.linkedin.com/in/syclik), as explained in more details in this [LinkedIn post](https://www.linkedin.com/pulse/harnessing-gpts-next-significant-advancement-marc-fournier-carrie) and [Medium article](https://medium.com/@marc.fourniercarrie/harnessing-gpts-for-the-next-significant-advancement-in-probabilistic-programming-70ccfc33846f).
+- Initial inspiration for `ppchain` came from [Thomas Wiecki, PhD](https://www.linkedin.com/in/twiecki) and [Daniel Lee](https://www.linkedin.com/in/syclik), as explained in more details in this [LinkedIn post](https://www.linkedin.com/pulse/harnessing-gpts-next-significant-advancement-marc-fournier-carrie) and [Medium article](https://medium.com/@marc.fourniercarrie/harnessing-gpts-for-the-next-significant-advancement-in-probabilistic-programming-70ccfc33846f).
+
+<a id="1">[1]</a> Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A. & Rubin, D. B. (2013). Bayesian data analysis (3rd ed.). Chapman & Hall/CRC
+
+<br>
