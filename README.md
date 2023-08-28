@@ -5,35 +5,38 @@ border: none;">
     </a>
 </p>
 <h2 align="center" style="border-bottom: none">Your Probabilistic Modeling Copilot</h2>
+
+<br/>
+
+[![Documentation Status](https://readthedocs.org/projects/ppchain/badge/?version=latest)](https://ppchain.readthedocs.io/en/latest/?version=latest)
+
+[![Open Issues](https://img.shields.io/github/issues-raw/shadowboxingskills/ppchainR)](https://github.com/shadowboxingskills/ppchainR/issues)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <br/>
 
 ## 🤔 What is this?
 
 Generative AI meets Probabilistic Programming.
-PP Chain, your open-source toolkit for intuitive, powerful modeling.
+`ppchain` an open-source toolkit for intuitive, effective modeling.
 Your copilot to build model internal representations and optimize your Bayesian workflow.
+
+<br>
 
 ## 🚀 What can this help with?
 
-- TODO
+`ppchain` aims to ease the pains of building a model.
 
-## Project goal
+Following the 3 main steps of the Bayesian data analysis process, as defined in [1], `ppchain` provides a (progressively growing) toolbox of AI-assisted functions aiming to make your life easier along the way:
 
-_TK: Briefly describe this project_
+1. Setting up a full probability model—a joint probability distribution for all observable and unobservable quantities in a problem. `ppchain` searches for domain knowledge about your underlying problem and helps building an internal representation that is consistent with both background knowledge and collected data.
 
-## Project notes
+2. Conditioning on observed data: calculating and interpreting the appropriate posterior distribution—the conditional probability distribution of the unobserved quantities of ultimate interest, given the observed data.
 
-### Staff involved
+3. Evaluating the fit of the model and the implications of the resulting posterior distribution: how well does the model fit the data? are the substantive conclusions reasonable? and how sensitive are the results to the modeling assumptions made?
 
-_TK: List people & contact info for people involved in the project_
-
-[Responsibility matrix](url-to-responsibility matrix)
-
-[HIRUFF Q&A](url-to-hiruff)
-
-### Data sources
-
-_TK: List access info & contact info for data sources used in the project_
+<br>
 
 ## Technical
 
@@ -51,9 +54,7 @@ Open `ppchainr.Rproj` in RStudio.
 
 _TK: For more complex or unusual projects additional directions follow_
 
-## Data notes
-
-_Add important caveats, limitations, and source contact info here._
+<br>
 
 ## 💁 Contributing
 
