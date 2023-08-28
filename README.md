@@ -43,20 +43,24 @@ Following the 3 main steps of the Bayesian data analysis process, as defined in 
   - Specify hypothesis
   - Select model type
   - Data collection method
+
 - Formalize priors, $P(\theta)$
   - Search for background knowledge
   - Prior elicitation
   - Formalize prior distributions
   - Prior predictive checks
+
 - Determine the likelihood function, $P(y \mid \theta)$
   - Search for background knowledge
   - Load & preprocess data
   - Formalize the likelihood function
+
 - Compute the posterior distribution, $P(\theta \mid y)$
-  - Variable selection, identifying the subset of predictors to include in the model
+  - Variables selection, identifying the subset of predictors to include in the model
   - Determine the functional form of the model
   - Fit the model to the observed data to estimate the unknown model parameters
   - Compute posterior distribution
+  
 - Run posterior inference
   - Compute posterior inference
   - Posterior predictive checking
