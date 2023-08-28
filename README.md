@@ -58,7 +58,7 @@ Following the 3 main steps of the Bayesian data analysis process, as defined in 
   - Load & preprocess data
   - Formalize the likelihood function
 
-- Compute the posterior distribution, $P(\theta \mid y)$
+- Compute the posterior distribution, $P(\theta \mid y) \propto P(y \mid \theta) \, P(\theta)$
 
   - Variables selection, identifying the subset of predictors to include in the model
   - Determine the functional form of the model
