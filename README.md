@@ -54,12 +54,12 @@ _TK: For more complex or unusual projects additional directions follow_
 
 ## ⚙ Workflow
 
-`ppchain` provides a (progressively growing) set of AI-assisted functions to progress through the following workflow (where `$P$` denotes a probability distribution, `$\theta$` the parameters, and `$y$` the data):
+`ppchain` provides a (progressively growing) set of AI-assisted functions to progress through the following workflow (where $P$ denotes a probability distribution, $\theta$ the parameters, and $y$ the data):
 
 - Define the problem statement
-- Formalize priors, `$P(\theta)$`
-- Determine the likelihood function, `$P(y \mid \theta)$`
-- Compute the posterior distribution, `$P(\theta \mid y)$`
+- Formalize priors, $P(\theta)$
+- Determine the likelihood function, $P(y \mid \theta)$
+- Compute the posterior distribution, $P(\theta \mid y)$
 - Run posterior inference
 
 <br>
